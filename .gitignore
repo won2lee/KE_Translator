@@ -1,7 +1,9 @@
 main_*
 main-*
-
 trns/model_bi_1105
+
+.ipynb_checkpoints
+__pycache__
 trns/.ipynb_checkpoints
 trns/__pycache__
 trns/NMT/.ipynb_checkpoints
