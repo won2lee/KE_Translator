@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Translate</title>
+</head>
+<body>
+    <div align="center" style="border: None;">
+    <form action="/nmt" method="post">
+        <p><label for="title" style="font-weight: bold; font-size: 1.5em; color: navy; font-family: arial;">
+                Write or copy / paste your sentences: </label>
+        </p>
+        <p><textarea id="in" name="nmt" rows="14" cols="70" style="font-size: 1.2em;">{{to_test}}</textarea></p>
+        <p><label for="to_translate" style="font-weight: bold; font-size: 1.2em; font-family: arial;">
+                English to Korean / Korean to English:</label>       
+            <input type="submit" value="Translate" style="font-weight: bold; font-size: 1.2em;">
+        </p>
+    </form>
+    <p><textarea id="out" name="nmted" rows="14" cols="70" style="font-size: 1.2em;">{{tested}}</textarea></p> 
+    </div>
+</body>
+</html>

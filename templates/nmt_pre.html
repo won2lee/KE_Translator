@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Translate</title>
+</head>
+<body>
+    <form action="/nmt" method="post">
+        <p><label for="to_translate">Write or copy/paste your sentences:</label></p>
+            <p><textarea id="in" name="nmt" rows="12" cols="70">{{to_test}}</textarea></p>
+        <p><input type="submit" value="번역하기/Translate"></p>
+    </form>
+    <p><textarea id="out" name="nmted" rows="12" cols="70">{{tested}}</textarea></p>
+</body>
+</html>
